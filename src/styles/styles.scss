@@ -1,0 +1,26 @@
+#app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  canvas {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+body {
+  background: black;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}

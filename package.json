@@ -1,0 +1,53 @@
+{
+  "name": "nanogl-plasma",
+  "description": "quick example with nanogl",
+  "version": "1.0.0",
+  "author": "Andrea Bovo <spleen666@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --https",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "nanogl": "^1.0.0",
+    "nanogl-camera": "^0.1.4",
+    "nanogl-constants": "^0.1.0",
+    "nanogl-depth-texture": "^0.1.4",
+    "nanogl-mouse": "^0.1.1",
+    "nanogl-node": "^0.1.2",
+    "nanogl-pbr": "^1.1.0",
+    "nanogl-pf": "^0.1.1",
+    "nanogl-post": "^0.3.1",
+    "nanogl-primitives-2d": "^0.1.1",
+    "nanogl-renderer": "^0.1.3",
+    "nanogl-state": "^0.1.11",
+    "nanogl-template": "^1.0.4",
+    "nanogl-texture-loader": "^0.1.3",
+    "nanogl-vao": "^0.2.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.0.5",
+    "shader-loader": "^1.3.1",
+    "html-webpack-plugin": "^2.30.1",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "url-loader": "^1.0.1",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
