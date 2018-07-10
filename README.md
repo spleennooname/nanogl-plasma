@@ -1,8 +1,11 @@
 # nanogl-plasma
 
-> quick & simple example with nanogl framework
+> quick & simple example with nanogl framework.
 
-## Build Setup
+* [demo](https://spleenooname.github.io/nanogl-plasma/dist/)
+* [NanoGL micro framework](http://plepers.github.io/nanogl/)
+
+## setup
 
 ``` bash
 # install dependencies
