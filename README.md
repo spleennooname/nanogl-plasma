@@ -2,7 +2,7 @@
 
 > quick & simple example with nanogl framework.
 
-* [demo](https://spleenooname.github.io/nanogl-plasma/)
+* [demo](https://spleennooname.github.io/nanogl-plasma/)
 * [NanoGL micro framework](http://plepers.github.io/nanogl/)
 
 ## setup
